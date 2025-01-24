@@ -1,5 +1,9 @@
 extends Node
 
+var Personagens = ["Biden", "Lula", "Trump", "Bolsonaro"]
+var personagem_index : int 
+var Pautas = []
+var pautas_selecionadas = []
 var actual_country: String
 
 func _ready() -> void:
