@@ -1,0 +1,92 @@
+[gd_scene load_steps=2 format=3 uid="uid://c73a47slxdbx3"]
+
+[ext_resource type="Script" path="res://Matheus/characther_selection.gd" id="1_62qtc"]
+
+[node name="CharactherSelection" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -10.0
+offset_bottom = -420.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_62qtc")
+
+[node name="Buttons" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 173.0
+offset_top = 88.0
+offset_right = 173.0
+offset_bottom = 88.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SplitContainer" type="SplitContainer" parent="Buttons"]
+layout_mode = 2
+offset_left = -16.0
+offset_top = 63.0
+offset_right = 326.0
+offset_bottom = 171.0
+split_offset = 164
+
+[node name="Characther1Button" type="Button" parent="Buttons/SplitContainer"]
+layout_mode = 2
+
+[node name="Charachter2Button" type="Button" parent="Buttons/SplitContainer"]
+layout_mode = 2
+
+[node name="SplitContainer2" type="SplitContainer" parent="Buttons"]
+layout_mode = 2
+offset_left = 765.0
+offset_top = 61.0
+offset_right = 1107.0
+offset_bottom = 169.0
+split_offset = 164
+
+[node name="Characther3Button" type="Button" parent="Buttons/SplitContainer2"]
+layout_mode = 2
+
+[node name="Characther4Button" type="Button" parent="Buttons/SplitContainer2"]
+layout_mode = 2
+
+[node name="SelectCharactherLabel" type="Label" parent="Buttons"]
+layout_mode = 0
+offset_left = 437.0
+offset_top = 23.0
+offset_right = 643.0
+offset_bottom = 46.0
+text = "Selecione seu Personagem"
+
+[node name="ConfirmButton" type="Button" parent="Buttons"]
+layout_mode = 0
+offset_left = 471.0
+offset_top = 189.0
+offset_right = 601.225
+offset_bottom = 229.0
+text = "Confirm"
+
+[node name="LeftLabel" type="Label" parent="Buttons"]
+layout_mode = 0
+offset_left = 115.0
+offset_top = 190.0
+offset_right = 188.0
+offset_bottom = 213.0
+text = "Esq	uerda"
+
+[node name="RightLabel" type="Label" parent="Buttons"]
+layout_mode = 0
+offset_left = 916.0
+offset_top = 187.0
+offset_right = 969.0
+offset_bottom = 210.0
+text = "Direita"
+
+[connection signal="pressed" from="Buttons/SplitContainer/Characther1Button" to="." method="_on_characther_1_button_pressed"]
+[connection signal="pressed" from="Buttons/SplitContainer/Charachter2Button" to="." method="_on_charachter_2_button_pressed"]
+[connection signal="pressed" from="Buttons/SplitContainer2/Characther3Button" to="." method="_on_characther_3_button_pressed"]
+[connection signal="pressed" from="Buttons/SplitContainer2/Characther4Button" to="." method="_on_characther_4_button_pressed"]
+[connection signal="pressed" from="Buttons/ConfirmButton" to="." method="_on_confirm_button_pressed"]
