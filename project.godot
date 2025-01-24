@@ -11,9 +11,20 @@ config_version=5
 [application]
 
 config/name="Elections"
+run/main_scene="res://Leandro/main scene.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
 GameManager="*res://GameManager.gd"
+ElectorManager="*res://ElectorManager.gd"
+Player="*res://Leandro/player.gd"
+
+[display]
+
+window/size/viewport_width=1366
+window/size/viewport_height=250
+window/size/resizable=false
+window/size/borderless=true
+window/subwindows/embed_subwindows=false

@@ -1,0 +1,154 @@
+[gd_scene load_steps=9 format=3 uid="uid://0pc2mnvt0ggf"]
+
+[ext_resource type="PackedScene" uid="uid://d5sbnmbclb55" path="res://Leandro/player.tscn" id="1_bccgr"]
+[ext_resource type="Texture2D" uid="uid://dg07ks004died" path="res://Leandro/crowd.png" id="2_uto8e"]
+[ext_resource type="Texture2D" uid="uid://2q2ng675ovct" path="res://Leandro/main scene print.png" id="3_4ox2j"]
+[ext_resource type="Texture2D" uid="uid://bjpte5v0pqatt" path="res://Leandro/trump pixel eua bandeira.png" id="4_fdt7n"]
+
+[sub_resource type="Gradient" id="Gradient_iihdb"]
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_40x8b"]
+gradient = SubResource("Gradient_iihdb")
+width = 645
+height = 149
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_8nh6k"]
+polygon = PackedVector2Array(110, 39, 107, -41, -104, -50)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_0sq6b"]
+polygon = PackedVector2Array(-124, 47, 119, -50, -120, -44)
+
+[node name="main scene" type="Node2D"]
+
+[node name="Candidato Container" type="Node2D" parent="."]
+position = Vector2(251, -125)
+
+[node name="ColorRect2" type="ColorRect" parent="Candidato Container"]
+offset_left = -373.0
+offset_top = -110.0
+offset_right = 153.0
+offset_bottom = 175.0
+
+[node name="PointLight2D" type="PointLight2D" parent="Candidato Container"]
+position = Vector2(-133.097, 26.2926)
+rotation = -1.57047
+scale = Vector2(1.21487, 2.14996)
+color = Color(0.48, 0.584, 1, 1)
+energy = 2.23
+shadow_enabled = true
+texture = SubResource("GradientTexture2D_40x8b")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="Candidato Container"]
+position = Vector2(-246, -5)
+occluder = SubResource("OccluderPolygon2D_8nh6k")
+
+[node name="LightOccluder2D3" type="LightOccluder2D" parent="Candidato Container"]
+position = Vector2(49, 290)
+rotation = -1.6178
+occluder = SubResource("OccluderPolygon2D_8nh6k")
+
+[node name="LightOccluder2D2" type="LightOccluder2D" parent="Candidato Container"]
+occluder = SubResource("OccluderPolygon2D_0sq6b")
+
+[node name="Candidato Container2" type="Node2D" parent="."]
+position = Vector2(1360, -125)
+
+[node name="ColorRect2" type="ColorRect" parent="Candidato Container2"]
+offset_left = -373.0
+offset_top = -110.0
+offset_right = 153.0
+offset_bottom = 175.0
+
+[node name="PointLight2D" type="PointLight2D" parent="Candidato Container2"]
+position = Vector2(-133.097, 26.2926)
+rotation = -1.57047
+scale = Vector2(1.21487, 2.14996)
+color = Color(1, 0.3, 0.311666, 1)
+energy = 2.23
+shadow_enabled = true
+texture = SubResource("GradientTexture2D_40x8b")
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="Candidato Container2"]
+position = Vector2(-246, -5)
+occluder = SubResource("OccluderPolygon2D_8nh6k")
+
+[node name="LightOccluder2D3" type="LightOccluder2D" parent="Candidato Container2"]
+position = Vector2(-292, 290)
+rotation = 1.5025
+occluder = SubResource("OccluderPolygon2D_8nh6k")
+
+[node name="LightOccluder2D2" type="LightOccluder2D" parent="Candidato Container2"]
+occluder = SubResource("OccluderPolygon2D_0sq6b")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1370.0
+offset_bottom = 252.0
+
+[node name="TrumpPixelEuaBandeira" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(126, 125)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4_fdt7n")
+
+[node name="TrumpPixelEuaBandeira2" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(1242, 125)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4_fdt7n")
+flip_h = true
+
+[node name="Node2D" type="Node2D" parent="."]
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="Node2D"]
+offset_left = 330.0
+offset_top = 9.0
+offset_right = 686.0
+offset_bottom = 209.0
+color = Color(0, 0, 0, 1)
+
+[node name="Crowd" type="Sprite2D" parent="Node2D"]
+position = Vector2(439, 109)
+scale = Vector2(0.55, 0.55)
+texture = ExtResource("2_uto8e")
+
+[node name="Crowd2" type="Sprite2D" parent="Node2D"]
+position = Vector2(576, 109)
+scale = Vector2(0.55, 0.55)
+texture = ExtResource("2_uto8e")
+
+[node name="Node2D2" type="Node2D" parent="."]
+visible = false
+position = Vector2(434, 0)
+
+[node name="ColorRect" type="ColorRect" parent="Node2D2"]
+offset_left = 330.0
+offset_top = 9.0
+offset_right = 686.0
+offset_bottom = 209.0
+color = Color(0, 0, 0, 1)
+
+[node name="Crowd" type="Sprite2D" parent="Node2D2"]
+position = Vector2(439, 109)
+scale = Vector2(0.55, 0.55)
+texture = ExtResource("2_uto8e")
+
+[node name="Crowd2" type="Sprite2D" parent="Node2D2"]
+position = Vector2(576, 109)
+scale = Vector2(0.55, 0.55)
+texture = ExtResource("2_uto8e")
+
+[node name="MainScenePrint" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(695, 126)
+scale = Vector2(1.1, 1.1)
+texture = ExtResource("3_4ox2j")
+
+[node name="DarkLight" type="DirectionalLight2D" parent="."]
+energy = 0.8
+blend_mode = 1
+
+[node name="Player" parent="." instance=ExtResource("1_bccgr")]
+position = Vector2(3, 1)
+
+[editable path="Player"]
