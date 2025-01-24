@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dgc2pqvd2f3yk"]
 
-[ext_resource type="Script" path="res://Scripts/ideology_selection.gd" id="1_q11ib"]
+[ext_resource type="Script" path="res://Matheus/Scripts/ideology_selection.gd" id="1_q11ib"]
 
 [node name="IdeologySelection" type="Control"]
 layout_mode = 3
