@@ -1,14 +1,9 @@
-extends Control
+extends Node
 
 var csv_data = []
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	load_csv("res://Files/csv/Decretos Presidente - Página1.csv")
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
 
 func load_csv(File_Path : String):
 	var file = FileAccess.open(File_Path, FileAccess.ModeFlags.READ)

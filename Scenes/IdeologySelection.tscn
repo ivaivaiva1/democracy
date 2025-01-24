@@ -70,6 +70,10 @@ size_flags_horizontal = 3
 layout_mode = 2
 size_flags_horizontal = 3
 
+[node name="Button9" type="Button" parent="Control/PautasContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
 [node name="ConfirmRemoveContainer" type="HBoxContainer" parent="Control"]
 layout_mode = 0
 offset_left = 417.0
@@ -96,5 +100,6 @@ text = "Confirm
 [connection signal="pressed" from="Control/PautasContainer/Button6" to="." method="_on_button_6_pressed"]
 [connection signal="pressed" from="Control/PautasContainer/Button7" to="." method="_on_button_7_pressed"]
 [connection signal="pressed" from="Control/PautasContainer/Button8" to="." method="_on_button_8_pressed"]
+[connection signal="pressed" from="Control/PautasContainer/Button9" to="." method="_on_button_9_pressed"]
 [connection signal="pressed" from="Control/ConfirmRemoveContainer/Remove" to="." method="_on_remove_pressed"]
 [connection signal="pressed" from="Control/ConfirmRemoveContainer/Confirm" to="." method="_on_confirm_pressed"]
