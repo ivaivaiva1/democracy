@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c2jpjqwcdlein"
+
+[deps]
+
+files=["res://Files/csv/Decretos Presidente - Página1.Zona.translation", "res://Files/csv/Decretos Presidente - Página1.Custo.translation", "res://Files/csv/Decretos Presidente - Página1.Nome.translation", "res://Files/csv/Decretos Presidente - Página1.Mais.translation", "res://Files/csv/Decretos Presidente - Página1.Menos.translation", "res://Files/csv/Decretos Presidente - Página1.Descricao.translation", "res://Files/csv/Decretos Presidente - Página1.Efeito.translation", "res://Files/csv/Decretos Presidente - Página1.Efeito secreto.translation"]
+
+source_file="res://Files/csv/Decretos Presidente - Página1.csv"
+dest_files=["res://Files/csv/Decretos Presidente - Página1.Zona.translation", "res://Files/csv/Decretos Presidente - Página1.Custo.translation", "res://Files/csv/Decretos Presidente - Página1.Nome.translation", "res://Files/csv/Decretos Presidente - Página1.Mais.translation", "res://Files/csv/Decretos Presidente - Página1.Menos.translation", "res://Files/csv/Decretos Presidente - Página1.Descricao.translation", "res://Files/csv/Decretos Presidente - Página1.Efeito.translation", "res://Files/csv/Decretos Presidente - Página1.Efeito secreto.translation"]
+
+[params]
+
+compress=true
+delimiter=0

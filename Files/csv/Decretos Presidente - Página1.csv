@@ -1,0 +1,40 @@
+Tipo,Zona,Custo,Nome,Mais,Menos,Descricao,Efeito,Efeito secreto
+Autoclique,Idosos,3,Acabar com o Home Office para os funcionarios publicos,,,Alguém fica feliz com isso?,Aumenta bastante sua taxa de cliques por segundo ,Diminui um pouco sua aprovacao pra todas as faixas etarias
+Autoclique,Idosos,3,Evangelizar os netos,,,Incentiva os vovozinhos a convencer os netos a votar em voce. Os jovens nao gostam muito disso.,Aumenta bem sua taxa de cliques por segundo,Diminui bem sua aprovacao entre os jovens
+Autoclique,Idosos,7,IA do zap,,,Cria uma IA que faz a campanha pra voce pelo whatsapp,Aumenta bastante sua taxa de cliques por segundo,
+Autoclique,Adolescentes,1,Assessor,,,Custa pouco mas até que trabalha,Aumenta um pouco sua taxa de cliques por segundo,
+Autoclique,Adolescentes,5,Eleitores ou interesseiros?,,,Oferece um valor para quem postar videos seus nas redes sociais e conseguir muitas visualizacoes,Aumenta bem sua taxa de cliques por segundo,
+Autoclique,Jovens,3,Panfletistas,,,Contrata planfetistas para entregar seus santinhos e balancar bandeiras,Aumenta bem sua taxa de cliques por segundo,
+Autoclique,Jovens,2,Porno Eleitoral,,,Divulga sua campanha politica em sites adultos. Por que diabos eles cobram tao barato?,Aumenta extremamente sua taxa de cliques por segundo,Diminui bastante sua aprovacao entre os maduros e seniors
+Autoclique,Jovens,1,Indianos clicam mais rapido,,,Contrata indianos para ajudarem na sua campanha politica. Muitas pessoas acham isso imoral,Aumenta bem sua taxa de cliques por segundo,Diminui um pouco sua aprovacao entre os jovens e os adultos
+Autoclique,Adultos,3,Cabo Eleitoral,,,Paga para alguns cidadaos colocarem posteres seus em suas casas e carros,Aumenta um pouco sua taxa de cliques por segundo,
+Autoclique,Adultos,5,Carro de som com jingle fudido,,,"""Se voce nao come , capim vote em mim""",Aumenta bem sua taxa de cliques por segundo,
+Buffs,Idosos,7,Ladrao em todas as coisas,,,,Aumenta em 50% sua chance de roubar os fans do seu rival,
+Buffs,Adolescentes,1,Diminuir imposto sobre video games,,,Gente como a gente,"Aumenta bem sua aprovacao com os adolescentes e jovens, diminui bem sua aprovacao com os idosos",
+Buffs,Jovens,2,Picanha pra todos,,,Alguém realmente acreditou nisso?,Aumenta um pouco sua aprovacao com os jovens e idosos,
+Buffs,Adultos,5,Acabar com os imigrantes,,,Quem vai fazer o trabalho duro?,Diminui seu autoclique e o do rival em 30%,
+Buffs,Jovens,4,Caca aos trapasseiros,,,"Garantir que o Elon Musk nao ira roubar novamente no POE, no Diablo ta de boas.",Aumenta bastante sua aprovacao com os jovens,
+Buffs,Adolescentes,1,Ele vai no porta malas,,,Dizer que Jesus esta no comicio do seu rival. Nao pegou muito bem...,Diminui bem sua aprovacao com os Velhos e idosos. Aumenta bem sua aprovacao com os adolescentes,
+Buffs,Adultos,4,Capitao Patria,,,Só voce pode acabar com a ameaca comunista,Aumenta bem sua aprovacao com os adultos e idosos,
+Campanhas,Jovens,3,Manifestacoes,,,Organiza manifestacoes para se tornar um icone para o povo,Ganha fans por segundo baseado na sua aprovacao de cada faixa etaria,
+Campanhas,Idosos,5,Motociatas,,,Uma passeata só que de moto!? Pelo visto os velinhos adoram,Ganha fans idosos por segundo baseado na sua aprovacao dos idosos,
+Campanhas,Adultos,1,Passeatas,,,,Ganha fans por segundo baseado na sua aprovacao de cada faixa etaria,
+Causas,Jovens,1,Emprego,. + todas,,Aumenta um pouco sua aprovacao com todas as faixas etarias,,
+Causas,Jovens,1,Meio ambiente,.++ jovens e adultos,.- seniors,Aumenta bem sua aprovacao com os jovens e os adultos. Diminui um pouco sua aprovacao com os seniors,,
+Causas,Adolescentes,1,Animais,.+++ jovens,".- adultos, maduros, seniors","Aumenta bastante sua aprovacao com os jovens. Diminui um pouco sua aprovacao com os adultos, maduros e seniors",,
+Causas,Adolescentes,1,Tecnologia,.++ jovens ,.- maduros e seniors,,,
+Causas,Adolescentes,1,Imigrantes,.+ jovens e adultos,ganha um pouco de taxa de clique,Aumenta um pouco sua aprovacao com jovens e adultos,,
+Causas,Adultos,1,Baixar impostos,.++ adultos e maduros,,Aumenta bem sua aprovacao com os adultos e maduros,,
+Causas,Adultos,1,Seguranca / Exercito,".++ adultos, maduros e seniors",.--- jovens,"Aumenta bem sua aprovacao com os adultos, maduros e seniors. Diminui bastante sua aprovacao com os jovens",,
+Causas,Idosos,1,Saude,".+++ seniors, + todos",perde taxa de lucro por clique,,,
+Causas,Idosos,1,Armamento,.++ maduros e seniors,.- jovens,,,
+Causas,Idosos,1,Educacao,.++ todos,perde taxa de lucro por clique,,,
+Sabotagem,Jovens,7,Perdido no paraiso,,,Compra uma passagem pro seu rival para o cruzeiro do Neymar/Dan Belzerian,Seu rival fica sem clicar por 1 mes,
+Sabotagem,Adolescentes,4,Proibir o TikTok,,,Nao vamos deixar os comunistas entrarem na mente das nossas criancas e expionarem nossas casas,Diminui em 30% a comunicacao da geracao Z,Diminui bastante sua aprovacao dos jovens
+Sabotagem,Jovens,7,Voltinha na Ucrania,,,Espalhe audios do seu rival falando coisas obscenas sobre as Refugiadas de Guerra da Ucrania,Diminui bem a aprovacao do seu rival para todas as faixas etarias,
+Sabotagem,Adultos,7,Estocada profunda,,,Esfaqueia o bucho do seu rival politico,"Diminui bastante o lucro por clique do seu rival, mas algumas pessoas podem sentir empatia por ele","Aumenta um pouco a aprovacao do seu rival com os jovens, bem com os adultos e os maduros, bastante com os seniors"
+Sabotagem,Idosos,2,Conspiradores,,,Espalha uma fake news de que a esposa do seu rival politico é transsexual ,Diminui bem a aprovacao do seu rival para os maduros e seniors,
+Sabotagem,Idosos,5,Dória Vile,,,Cria um video com AI do seu rival na cama com prostitutas,Diminui bastante a aprovacao do seu rival com maduros e seniors,
+Sabotagem,Adultos,2,Cheirador profissional,,,Espalhe uma fake news que seu rival é viciado em drogas utilizando um laudo medico falso,Diminui um pouco aprovacao do candidato entre os maduros e seniors,
+Sabotagem,Adolescentes,3,Maltatos Animais,,,Cria uma fake news de que a familia do seu rival maltrata seus animais de estimacao,Diminui bastante a aprovacao entre os jovens,
+Sabotagem,Idosos,1,Numero errado na urna,,,Crie uma fake news de que o numero para votar no seu rival mudou. Quem sabe alguns velinhos pegam a isca?,Diminui um pouco a aprovacao entre os seniors,
